@@ -15,7 +15,7 @@ public class boj1759 {
         if(depth == chars.length){
             if(check()){
                 for (int i = 0; i < used.length; i++) {
-                    if (used[i] == 1) sb.append(chars[i])
+                    if (used[i] == 1) sb.append(chars[i]);
                 }
                 sb.append("\n");
             }
